@@ -1,16 +1,5 @@
 {
   "reports": {
-    "2026-07-16-foreman-agency-home-campaign-performance-july-16-2026.html": {
-      "title": "Foreman Agency — Home Campaign Performance · July 16, 2026",
-      "date": "2026-07-16",
-      "type": "Performance",
-      "style": "dashboard",
-      "sources": [
-        "Foreman Agency/_Inbox/2026-07-16-home-campaign-performance.html"
-      ],
-      "generatedBy": "drive-inbox",
-      "builtAt": "2026-07-16T19:20:12.923Z"
-    },
     "2026-07-16-auto-campaign-performance.html": {
       "title": "Auto Campaign Performance",
       "date": "2026-07-16",

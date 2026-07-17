@@ -21,6 +21,23 @@
       ],
       "generatedBy": "drive-inbox",
       "builtAt": "2026-07-16T19:47:58.744Z"
+    },
+    "2026-07-16-alltime-blended-performance.html": {
+      "title": "Foreman Agency — All-Time Blended Performance · July 16, 2026",
+      "date": "2026-07-16",
+      "type": "Performance",
+      "style": "dashboard",
+      "sources": [
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-county-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-city-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-consumer-age-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-number-of-drivers-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-number-of-vehicles-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/home-campaign-performance-by-property-age-alltime.csv (superseded export, totals reconcile with blended summary)"
+      ],
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-07-16T22:45:00.000Z"
     }
   }
 }

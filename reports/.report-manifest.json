@@ -1,43 +1,98 @@
 {
   "reports": {
-    "2026-07-16-foreman-agency-home-campaign-performance-july-16-2026.html": {
-      "title": "Foreman Agency — Home Campaign Performance · July 16, 2026",
-      "date": "2026-07-16",
+    "2026-08-27-alltime-blended-performance.html": {
+      "title": "Foreman Agency — All-Time Blended Performance · August 27, 2026",
+      "date": "2026-08-27",
       "type": "Performance",
       "style": "dashboard",
       "sources": [
-        "Foreman Agency/_Inbox/Foreman Agency - Home Campaign Performance - July 16 2026.html"
-      ],
-      "generatedBy": "drive-inbox",
-      "builtAt": "2026-07-16T19:32:37.287Z"
-    },
-    "2026-07-16-foreman-agency-auto-campaign-performance-july-16-2026.html": {
-      "title": "Foreman Agency — Auto Campaign Performance · July 16, 2026",
-      "date": "2026-07-16",
-      "type": "Performance",
-      "style": "dashboard",
-      "sources": [
-        "Foreman Agency/_Inbox/Foreman Agency - Auto Campaign Performance - July 16 2026.html"
-      ],
-      "generatedBy": "drive-inbox",
-      "builtAt": "2026-07-16T19:47:58.744Z"
-    },
-    "2026-07-16-alltime-blended-performance.html": {
-      "title": "Foreman Agency — All-Time Blended Performance · July 16, 2026",
-      "date": "2026-07-16",
-      "type": "Performance",
-      "style": "dashboard",
-      "sources": [
-        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-alltime.csv",
-        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-county-alltime.csv",
-        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-city-alltime.csv",
-        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-consumer-age-alltime.csv",
-        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-number-of-drivers-alltime.csv",
-        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-number-of-vehicles-alltime.csv",
-        "Foreman Agency/account-reviews/account-review-7-16-26/all time/home-campaign-performance-by-property-age-alltime.csv (superseded export, totals reconcile with blended summary)"
+        "Foreman Agency/account-reviews/account-review-8-27-26/blended-alltime/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/home-last30days/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/auto-last30days/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/inbound-call-data-last30days.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-source-type-alltime.csv (July 16 baseline)",
+        "Foreman Agency/account-reviews/account-review-7-30-26/source-performance-reporting/*.csv (July 30 baseline)"
       ],
       "generatedBy": "cowork-session",
-      "builtAt": "2026-07-16T22:45:00.000Z"
+      "builtAt": "2026-08-27T00:00:00.000Z",
+      "replaces": "2026-07-16-alltime-blended-performance.html"
+    },
+    "2026-08-27-home-campaign-performance.html": {
+      "title": "Foreman Agency — Home Campaign Performance · August 27, 2026",
+      "date": "2026-08-27",
+      "type": "Performance",
+      "style": "dashboard",
+      "sources": [
+        "Foreman Agency/account-reviews/account-review-8-27-26/blended-alltime/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/home-last30days/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/auto-last30days/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/inbound-call-data-last30days.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-source-type-alltime.csv (July 16 baseline)",
+        "Foreman Agency/account-reviews/account-review-7-30-26/source-performance-reporting/*.csv (July 30 baseline)"
+      ],
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-08-27T00:00:00.000Z",
+      "replaces": "2026-07-16-foreman-agency-home-campaign-performance-july-16-2026.html"
+    },
+    "2026-08-27-auto-campaign-performance.html": {
+      "title": "Foreman Agency — Auto Campaign Performance · August 27, 2026",
+      "date": "2026-08-27",
+      "type": "Performance",
+      "style": "dashboard",
+      "sources": [
+        "Foreman Agency/account-reviews/account-review-8-27-26/blended-alltime/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/home-last30days/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/auto-last30days/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/inbound-call-data-last30days.csv",
+        "Foreman Agency/account-reviews/account-review-7-16-26/all time/campaign-performance-by-source-type-alltime.csv (July 16 baseline)",
+        "Foreman Agency/account-reviews/account-review-7-30-26/source-performance-reporting/*.csv (July 30 baseline)"
+      ],
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-08-27T00:00:00.000Z",
+      "replaces": "2026-07-16-foreman-agency-auto-campaign-performance-july-16-2026.html"
+    },
+    "2026-09-10-alltime-blended-performance.html": {
+      "title": "Foreman Agency — All-Time Blended Performance · September 10, 2026",
+      "date": "2026-09-10",
+      "type": "Performance",
+      "style": "dashboard",
+      "sources": [
+        "Foreman Agency/account-reviews/account-review-9-10/blended/*.csv",
+        "Foreman Agency/account-reviews/account-review-9-10/home/Source-Settings-home-ga-last30days.csv",
+        "Foreman Agency/account-reviews/account-review-9-10/home/campaign-performance-by-county-home-ga-last30days.csv",
+        "Foreman Agency/account-reviews/account-review-9-10/calling data/inbound-call-report-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/blended-alltime/*.csv (August 27 baseline)"
+      ],
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-09-10T23:15:00.000Z",
+      "replaces": "2026-08-27-alltime-blended-performance.html"
+    },
+    "2026-09-10-home-campaign-performance.html": {
+      "title": "Foreman Agency — Home Campaign Performance · September 10, 2026",
+      "date": "2026-09-10",
+      "type": "Performance",
+      "style": "dashboard",
+      "sources": [
+        "Foreman Agency/account-reviews/account-review-9-10/home/*.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/home-last30days/*.csv (prior window)"
+      ],
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-09-10T23:15:00.000Z",
+      "replaces": "2026-08-27-home-campaign-performance.html"
+    },
+    "2026-09-10-inbound-call-performance.html": {
+      "title": "Foreman Agency — Inbound Call Performance · September 10, 2026",
+      "date": "2026-09-10",
+      "type": "Operations",
+      "style": "dashboard",
+      "sources": [
+        "Foreman Agency/account-reviews/account-review-9-10/calling data/inbound-call-report-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-9-10/calling data/inbound-call-signal-data-alltime.csv",
+        "Foreman Agency/account-reviews/account-review-8-27-26/blended-alltime/inbound-call-data-alltime.csv (August 27 baseline)"
+      ],
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-09-10T23:15:00.000Z",
+      "replaces": "2026-07-20-inbound-calls-by-time-of-day.html"
     }
   }
 }

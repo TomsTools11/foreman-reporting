@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foreman Agency &mdash; Inbound Call Performance &middot; September 25, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/report-dashboard.css">
+<style>
+.scn{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.scn .col{border:1px solid var(--line);border-radius:12px;padding:18px;background:var(--white);}
+.scn .col.now{background:#f5f8fc;}
+.scn .h{font-size:11px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;}
+.scn .ar{font-size:28px;font-weight:900;color:var(--ink);margin:6px 0 2px;}
+.scn .sub{font-size:11.5px;color:var(--muted);margin-bottom:14px;}
+.scn .m{display:flex;justify-content:space-between;font-size:13px;padding:7px 0;border-top:1px solid var(--line);}
+.scn .m b{color:var(--ink);}
+.vbars{display:flex;align-items:flex-end;gap:28px;height:230px;padding:0 10px;border-bottom:1px solid var(--line);}
+.vgrp{flex:1;display:flex;align-items:flex-end;justify-content:center;gap:10px;height:100%;}
+.vb{width:46px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;}
+.vb i{display:block;width:100%;border-radius:6px 6px 0 0;}
+.vb span{font-size:12.5px;font-weight:800;color:var(--ink);margin-bottom:5px;}
+.vlab{display:flex;gap:28px;padding:10px 10px 0;}
+.vlab div{flex:1;text-align:center;font-size:12.5px;font-weight:700;color:var(--ink);}
+.vlab small{display:block;font-weight:500;color:var(--muted);font-size:11px;}
+.gap{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media(max-width:760px){.scn,.gap{grid-template-columns:1fr;}.vbars{gap:10px;}.vb{width:30px;}}
+</style>
+</head>
+<body>
+<div class="shell" data-screen-label="Dashboard report">
+<aside class="side">
+<a class="backbtn" href="../index.html">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>All reports
+</a>
+<img class="logo" src="../assets/goal-logo-white.png" alt="GOAL">
+<div class="eb">Inbound Calls &middot; All Campaigns</div>
+<h1>Foreman Agency</h1>
+<div class="who">Prepared for <b>Kofi Domfeh</b><br>Marietta, GA<br>All campaigns<br>Campaign launch &ndash; September 25, 2026</div>
+<nav>
+<a href="#s1"><span class="dot"></span>Key metrics</a>
+<a href="#s2"><span class="dot"></span>Answer rate and missed calls</a>
+<a href="#s3"><span class="dot"></span>Quote and bind rate at 60% and 90%</a>
+<a href="#s4"><span class="dot"></span>Calls by week and month</a>
+<a href="#s5"><span class="dot"></span>Calls by weekday</a>
+<a href="#s6"><span class="dot"></span>Call length and outcomes</a>
+<a href="#s7"><span class="dot"></span>Change since last review</a>
+<a href="#s8"><span class="dot"></span>Notes</a>
+</nav>
+<div class="foot">GOAL Performance Marketing<br>Home + Auto &middot; Georgia<br>Quote and bind rates on this page are per inbound call.<br><br>Updated before each review.</div>
+</aside>
+<main class="main">
+<div class="exec">
+<p>Inbound calls, campaign launch through <b>September 25, 2026</b>: <b>129 calls</b>, <b>46 answered</b> (35.7%) and <b>83 missed</b>. Answered calls produced <b>30 quotes</b> and <b>9 policies</b> across <b>16.3 hours</b> of talk time.</p>
+</div>
+<section class="block" id="s1">
+<div class="bhead"><span class="ix">01</span><div><h2>Key metrics</h2><p>Campaign launch &ndash; September 25, 2026 &middot; all campaigns</p></div></div>
+<div class="kgrid">
+<div class="kc"><div class="v blue">129</div><div class="k">Inbound calls</div><div class="d">June 8 &ndash; September 25, 2026</div></div>
+<div class="kc"><div class="v ">35.7%</div><div class="k">Answer rate</div><div class="d">46 answered &middot; 83 missed</div></div>
+<div class="kc"><div class="v ">83</div><div class="k">Missed calls</div><div class="d">64.3% of inbound calls</div></div>
+<div class="kc"><div class="v ">30</div><div class="k">Quotes</div><div class="d">65.2% of answered calls &middot; 23.3% of all calls</div></div>
+<div class="kc"><div class="v mint">9</div><div class="k">Policies</div><div class="d">19.6% of answered calls &middot; 7.0% of all calls</div></div>
+<div class="kc"><div class="v ">16:12</div><div class="k">Median answered call</div><div class="d">16.3 hours across 46 answered calls</div></div>
+</div>
+<div class="note">Quotes and policies are recorded against answered calls. Inbound calls are tracked separately from the lead funnel in the campaign reports.</div>
+</section>
+<section class="block" id="s2">
+<div class="bhead"><span class="ix">02</span><div><h2>Answer rate and missed calls</h2><p>Campaign launch &ndash; September 25, 2026 &middot; all campaigns</p></div></div>
+<div class="split">
+<div class="panel"><div class="pt">Current answer rate</div>
+<div class="donut-wrap">
+<div class="donut">
+<svg viewBox="0 0 42 42" width="180" height="180">
+<circle cx="21" cy="21" r="15.915" fill="none" stroke="#EFF2F7" stroke-width="6"></circle>
+<circle cx="21" cy="21" r="15.915" fill="none" stroke="#057BE5" stroke-width="6" stroke-dasharray="35.66 64.34" transform="rotate(-90 21 21)"></circle>
+<circle cx="21" cy="21" r="15.915" fill="none" stroke="#c9dcf0" stroke-width="6" stroke-dasharray="64.34 35.66" stroke-dashoffset="-35.66" transform="rotate(-90 21 21)"></circle>
+</svg>
+<div class="center"><div class="n">35.7%</div><div class="l">answered</div></div>
+</div>
+<div class="legend">
+<div class="li"><span class="sw" style="background:#057BE5"></span><span class="nm">Answered</span><span class="vl">46 &middot; 35.7%</span></div>
+<div class="li"><span class="sw" style="background:#c9dcf0"></span><span class="nm">Missed</span><span class="vl">83 &middot; 64.3%</span></div>
+</div>
+</div>
+</div>
+<div class="panel"><div class="pt">Missed opportunities</div>
+<div class="oc">
+<div class="row"><div class="big" style="color:var(--muted)">83</div><div><div class="t">Missed calls</div><div class="s">64.3% of inbound calls &middot; no recorded quote or policy</div></div></div>
+<div class="row"><div class="big">54</div><div><div class="t">Quotes not captured</div><div class="s">83 missed calls &times; 65.2% quote rate on answered calls</div></div></div>
+<div class="row"><div class="big" style="color:var(--mint-d)">16</div><div><div class="t">Policies not captured</div><div class="s">83 missed calls &times; 19.6% policy rate on answered calls</div></div></div>
+</div>
+</div>
+</div>
+<div class="panel" style="margin-top:16px;">
+<div class="pt">Captured vs. not captured</div>
+<div class="hrow" style="margin-bottom:10px;"><div class="hlab">Calls<small>129 total</small></div><div class="htrack"><i style="--pw:35.7%">46 answered</i></div><div class="hval">83 missed</div></div>
+<div class="hrow" style="margin-bottom:10px;"><div class="hlab">Quotes<small>84 available</small></div><div class="htrack"><i style="--pw:35.7%">30 captured</i></div><div class="hval">54 not captured</div></div>
+<div class="hrow"><div class="hlab">Policies<small>25 available</small></div><div class="htrack"><i style="--pw:35.7%;background:var(--mint-d)">9 captured</i></div><div class="hval">16 not captured</div></div>
+<div class="note">Available = every inbound call answered at the current rates on answered calls (65.2% quoted, 19.6% bound).</div>
+</div>
+</section>
+<section class="block" id="s3">
+<div class="bhead"><span class="ix">03</span><div><h2>Quote and bind rate at 60% and 90% answered</h2><p>Same 129 calls &middot; current rates on answered calls (65.2% quoted, 19.6% bound)</p></div></div>
+<div class="panel">
+<div class="pt">Quote rate and bind rate per inbound call</div>
+<div class="keyrow"><span><i style="background:#057BE5"></i>Quote rate</span><span><i style="background:#1FB58F"></i>Bind rate</span></div>
+<div class="vbars"><div class="vgrp"><div class="vb"><span>23.3%</span><i style="height:79px;background:#057BE5"></i></div><div class="vb"><span>7.0%</span><i style="height:24px;background:#1FB58F"></i></div></div><div class="vgrp"><div class="vb"><span>39.1%</span><i style="height:133px;background:#057BE5"></i></div><div class="vb"><span>11.7%</span><i style="height:40px;background:#1FB58F"></i></div></div><div class="vgrp"><div class="vb"><span>58.7%</span><i style="height:200px;background:#057BE5"></i></div><div class="vb"><span>17.6%</span><i style="height:60px;background:#1FB58F"></i></div></div></div>
+<div class="vlab"><div>Current<small>35.7% answer rate</small></div><div>60% answered<small>60.0% answer rate</small></div><div>90% answered<small>90.0% answer rate</small></div></div>
+</div>
+<div class="panel" style="margin-top:16px;">
+<div class="pt">Quotes and policies by answer rate</div>
+<div class="scn"><div class="col now"><div class="h">Current</div><div class="ar">35.7%</div><div class="sub">46 of 129 calls answered</div>
+<div class="m"><span>Quote rate (per call)</span><b>23.3%</b></div>
+<div class="m"><span>Bind rate (per call)</span><b>7.0%</b></div>
+<div class="m"><span>Quotes</span><b>30</b></div>
+<div class="m"><span>Policies</span><b>9</b></div></div><div class="col"><div class="h">60% answered</div><div class="ar">60.0%</div><div class="sub">77 of 129 calls answered</div>
+<div class="m"><span>Quote rate (per call)</span><b>39.1%</b></div>
+<div class="m"><span>Bind rate (per call)</span><b>11.7%</b></div>
+<div class="m"><span>Quotes</span><b>50</b></div>
+<div class="m"><span>Policies</span><b>15</b></div></div><div class="col"><div class="h">90% answered</div><div class="ar">90.0%</div><div class="sub">116 of 129 calls answered</div>
+<div class="m"><span>Quote rate (per call)</span><b>58.7%</b></div>
+<div class="m"><span>Bind rate (per call)</span><b>17.6%</b></div>
+<div class="m"><span>Quotes</span><b>76</b></div>
+<div class="m"><span>Policies</span><b>23</b></div></div></div>
+<div class="note">Quote rate and bind rate = quotes or policies &divide; all 129 inbound calls. Scenarios hold the current rates on answered calls constant and change only the share of calls answered.</div>
+</div>
+</section>
+<section class="block" id="s4">
+<div class="bhead"><span class="ix">04</span><div><h2>Calls by week and month</h2><p>Weeks of June 8 &ndash; September 21, 2026</p></div></div>
+<div class="panel">
+<div class="pt">Inbound calls by week</div>
+<div class="keyrow"><span><i style="background:#057BE5"></i>Answered</span><span><i style="background:#c9dcf0"></i>Missed</span><span><i style="background:repeating-linear-gradient(135deg,#c9dcf0 0 3px,#e8eff7 3px 6px)"></i>Partial week</span></div>
+<div class="wkchart">
+<div class="wkcol" title="Week of Jun 8: 13 calls, 6 answered, 5 quotes, 2 policies"><div class="tot">13</div><div class="stk"><div class="m" style="height:70px"></div><div class="a" style="height:60px"></div></div></div>
+<div class="wkcol" title="Week of Jun 15: 6 calls, 2 answered, 0 quotes, 0 policies"><div class="tot">6</div><div class="stk"><div class="m" style="height:40px"></div><div class="a" style="height:20px"></div></div></div>
+<div class="wkcol" title="Week of Jun 22: 16 calls, 3 answered, 3 quotes, 1 policies"><div class="tot">16</div><div class="stk"><div class="m" style="height:130px"></div><div class="a" style="height:30px"></div></div></div>
+<div class="wkcol" title="Week of Jun 29: 12 calls, 3 answered, 3 quotes, 0 policies"><div class="tot">12</div><div class="stk"><div class="m" style="height:90px"></div><div class="a" style="height:30px"></div></div></div>
+<div class="wkcol" title="Week of Jul 6: 5 calls, 4 answered, 3 quotes, 1 policies"><div class="tot">5</div><div class="stk"><div class="m" style="height:10px"></div><div class="a" style="height:40px"></div></div></div>
+<div class="wkcol" title="Week of Jul 13: 3 calls, 1 answered, 1 quotes, 0 policies"><div class="tot">3</div><div class="stk"><div class="m" style="height:20px"></div><div class="a" style="height:10px"></div></div></div>
+<div class="wkcol" title="Week of Jul 20: 6 calls, 4 answered, 2 quotes, 0 policies"><div class="tot">6</div><div class="stk"><div class="m" style="height:20px"></div><div class="a" style="height:40px"></div></div></div>
+<div class="wkcol" title="Week of Jul 27: 13 calls, 8 answered, 2 quotes, 1 policies"><div class="tot">13</div><div class="stk"><div class="m" style="height:50px"></div><div class="a" style="height:80px"></div></div></div>
+<div class="wkcol" title="Week of Aug 3: 8 calls, 2 answered, 1 quotes, 1 policies"><div class="tot">8</div><div class="stk"><div class="m" style="height:60px"></div><div class="a" style="height:20px"></div></div></div>
+<div class="wkcol" title="Week of Aug 10: 10 calls, 3 answered, 1 quotes, 0 policies"><div class="tot">10</div><div class="stk"><div class="m" style="height:70px"></div><div class="a" style="height:30px"></div></div></div>
+<div class="wkcol" title="Week of Aug 17: 9 calls, 2 answered, 2 quotes, 1 policies"><div class="tot">9</div><div class="stk"><div class="m" style="height:70px"></div><div class="a" style="height:20px"></div></div></div>
+<div class="wkcol" title="Week of Aug 24: 8 calls, 2 answered, 1 quotes, 0 policies"><div class="tot">8</div><div class="stk"><div class="m" style="height:60px"></div><div class="a" style="height:20px"></div></div></div>
+<div class="wkcol" title="Week of Aug 31: 5 calls, 2 answered, 2 quotes, 1 policies"><div class="tot">5</div><div class="stk"><div class="m" style="height:30px"></div><div class="a" style="height:20px"></div></div></div>
+<div class="wkcol" title="Week of Sep 7: 3 calls, 0 answered, 0 quotes, 0 policies"><div class="tot">3</div><div class="stk"><div class="m" style="height:30px"></div><div class="a" style="height:0px"></div></div></div>
+<div class="wkcol" title="Week of Sep 14: 4 calls, 1 answered, 1 quotes, 0 policies"><div class="tot">4</div><div class="stk"><div class="m" style="height:30px"></div><div class="a" style="height:10px"></div></div></div>
+<div class="wkcol part" title="Week of Sep 21: 8 calls, 3 answered, 3 quotes, 1 policies"><div class="tot">8</div><div class="stk"><div class="m" style="height:50px"></div><div class="a" style="height:30px"></div></div></div>
+</div>
+<div class="wklab">
+<span>Jun 8</span>
+<span>Jun 15</span>
+<span>Jun 22</span>
+<span>Jun 29</span>
+<span>Jul 6</span>
+<span>Jul 13</span>
+<span>Jul 20</span>
+<span>Jul 27</span>
+<span>Aug 3</span>
+<span>Aug 10</span>
+<span>Aug 17</span>
+<span>Aug 24</span>
+<span>Aug 31</span>
+<span>Sep 7</span>
+<span>Sep 14</span>
+<span>Sep 21</span>
+</div>
+<div class="note">Weeks begin on the Monday shown. The final week covers September 21&ndash;25. Numbers above each bar are total calls for the week.</div>
+</div>
+<div class="panel" style="margin-top:16px;">
+<div class="pt">By month</div>
+<table class="dtable">
+<thead><tr><th>Month</th><th class="r">Calls</th><th class="r">Answered</th><th class="r">Missed</th><th class="r">Answer rate</th><th class="r">Quotes</th><th class="r">Policies</th></tr></thead>
+<tbody>
+<tr><td class="nm">June 8&ndash;30</td><td class="r">42</td><td class="r">14</td><td class="r">28</td><td class="r">33.3%</td><td class="r">11</td><td class="r">3</td></tr><tr><td class="nm">July</td><td class="r">32</td><td class="r">17</td><td class="r">15</td><td class="r">53.1%</td><td class="r">8</td><td class="r">2</td></tr><tr><td class="nm">August</td><td class="r">37</td><td class="r">10</td><td class="r">27</td><td class="r">27.0%</td><td class="r">6</td><td class="r">3</td></tr><tr><td class="nm">September 1&ndash;25</td><td class="r">18</td><td class="r">5</td><td class="r">13</td><td class="r">27.8%</td><td class="r">5</td><td class="r">1</td></tr>
+<tr><td class="nm"><span style="color:var(--ink)">All months</span></td><td class="r">129</td><td class="r">46</td><td class="r">83</td><td class="r">35.7%</td><td class="r">30</td><td class="r">9</td></tr>
+</tbody>
+</table>
+<div class="note">Answer rate: June 33.3%, July 53.1%, August 27.0%, September 27.8%.</div>
+</div>
+</section>
+<section class="block" id="s5">
+<div class="bhead"><span class="ix">05</span><div><h2>Calls by weekday</h2><p>Campaign launch &ndash; September 25, 2026 &middot; all campaigns</p></div></div>
+<div class="panel">
+<div class="pt">Answered and missed by weekday</div>
+<div class="keyrow"><span><i style="background:#057BE5"></i>Answered</span><span><i style="background:#c9dcf0"></i>Missed</span></div>
+<div class="srow"><div class="hlab">Monday</div><div class="strack"><b class="a" style="width:40.0%"></b><b class="m" style="width:50.0%"></b></div><div class="hval">12 of 27 answered &middot; 44.4%</div></div><div class="srow"><div class="hlab">Tuesday</div><div class="strack"><b class="a" style="width:26.7%"></b><b class="m" style="width:56.7%"></b></div><div class="hval">8 of 25 answered &middot; 32.0%</div></div><div class="srow"><div class="hlab">Wednesday</div><div class="strack"><b class="a" style="width:13.3%"></b><b class="m" style="width:46.7%"></b></div><div class="hval">4 of 18 answered &middot; 22.2%</div></div><div class="srow"><div class="hlab">Thursday</div><div class="strack"><b class="a" style="width:43.3%"></b><b class="m" style="width:56.7%"></b></div><div class="hval">13 of 30 answered &middot; 43.3%</div></div><div class="srow"><div class="hlab">Friday</div><div class="strack"><b class="a" style="width:30.0%"></b><b class="m" style="width:63.3%"></b></div><div class="hval">9 of 28 answered &middot; 32.1%</div></div><div class="srow"><div class="hlab">Weekend</div><div class="strack"><b class="a" style="width:0.0%"></b><b class="m" style="width:3.3%"></b></div><div class="hval">0 of 1 answered &middot; 0.0%</div></div>
+<table class="dtable" style="margin-top:26px;">
+<thead><tr><th>Weekday</th><th class="r">Calls</th><th class="r">Answered</th><th class="r">Answer rate</th><th class="r">Quotes</th><th class="r">Policies</th></tr></thead>
+<tbody>
+<tr><td class="nm">Monday</td><td class="r">27</td><td class="r">12</td><td class="r">44.4%</td><td class="r">10</td><td class="r">5</td></tr><tr><td class="nm">Tuesday</td><td class="r">25</td><td class="r">8</td><td class="r">32.0%</td><td class="r">4</td><td class="r">0</td></tr><tr><td class="nm">Wednesday</td><td class="r">18</td><td class="r">4</td><td class="r">22.2%</td><td class="r">3</td><td class="r">1</td></tr><tr><td class="nm">Thursday</td><td class="r">30</td><td class="r">13</td><td class="r">43.3%</td><td class="r">7</td><td class="r">2</td></tr><tr><td class="nm">Friday</td><td class="r">28</td><td class="r">9</td><td class="r">32.1%</td><td class="r">6</td><td class="r">1</td></tr><tr><td class="nm">Weekend</td><td class="r">1</td><td class="r">0</td><td class="r">0.0%</td><td class="r">0</td><td class="r">0</td></tr>
+</tbody>
+</table>
+<div class="note">Answer rate is 44.4% on Mondays and 43.3% on Thursdays; Wednesday is 22.2% (4 of 18). Mondays carry 5 of the 9 policies.</div>
+</div>
+</section>
+<section class="block" id="s6">
+<div class="bhead"><span class="ix">06</span><div><h2>Call length and outcomes</h2><p>Campaign launch &ndash; September 25, 2026 &middot; all campaigns</p></div></div>
+<div class="panel">
+<table class="dtable">
+<thead><tr><th>Call length</th><th class="r">Calls</th><th class="r">Share of calls</th><th class="r">Quotes</th><th class="r">Policies</th><th class="r">Quote rate</th></tr></thead>
+<tbody>
+<tr><td class="nm">Under 1:00</td><td class="r">76</td><td class="r">58.9%</td><td class="r">0</td><td class="r">0</td><td class="r">0.0%</td></tr><tr><td class="nm">1:00 &ndash; 2:59</td><td class="r">11</td><td class="r">8.5%</td><td class="r">0</td><td class="r">0</td><td class="r">0.0%</td></tr><tr><td class="nm">3:00 &ndash; 9:59</td><td class="r">11</td><td class="r">8.5%</td><td class="r">7</td><td class="r">1</td><td class="r">63.6%</td></tr><tr><td class="nm">10:00 &ndash; 29:59</td><td class="r">21</td><td class="r">16.3%</td><td class="r">15</td><td class="r">6</td><td class="r">71.4%</td></tr><tr><td class="nm">30:00 or longer</td><td class="r">10</td><td class="r">7.8%</td><td class="r">8</td><td class="r">2</td><td class="r">80.0%</td></tr>
+</tbody>
+</table>
+<div class="note">Calls of 3 minutes or longer: <b>42 of 129 calls</b>, <b>30 of 30 quotes</b> and <b>9 of 9 policies</b>. Calls under 1 minute: 76 calls (58.9%), no quotes.</div>
+</div>
+</section>
+<section class="block" id="s7">
+<div class="bhead"><span class="ix">07</span><div><h2>Change since the last review</h2><p>Cumulative totals &middot; September 10 and September 25, 2026</p></div></div>
+<div class="panel">
+<table class="dtable">
+<thead><tr><th>Measure</th><th class="r">September 10</th><th class="r">September 25</th><th class="r">Change</th><th class="r">&nbsp;</th></tr></thead>
+<tbody>
+<tr><td class="nm">Inbound calls</td><td class="r">116</td><td class="r">129</td><td class="r">+13</td><td class="r"><span class="dpill up">+11.2%</span></td></tr>
+<tr><td class="nm">Answered</td><td class="r">42</td><td class="r">46</td><td class="r">+4</td><td class="r"><span class="dpill up">+9.5%</span></td></tr>
+<tr><td class="nm">Missed</td><td class="r">74</td><td class="r">83</td><td class="r">+9</td><td class="r"><span class="dpill dn">+12.2%</span></td></tr>
+<tr><td class="nm">Answer rate</td><td class="r">36.2%</td><td class="r">35.7%</td><td class="r">-0.5 pts</td><td class="r"><span class="dpill dn">&darr;</span></td></tr>
+<tr><td class="nm">Quotes</td><td class="r">26</td><td class="r">30</td><td class="r">+4</td><td class="r"><span class="dpill up">+15.4%</span></td></tr>
+<tr><td class="nm">Policies</td><td class="r">8</td><td class="r">9</td><td class="r">+1</td><td class="r"><span class="dpill up">+12.5%</span></td></tr>
+</tbody>
+</table>
+<div class="note">Between the two reviews: <b>13 calls</b>, 4 answered (30.8%), 4 quotes and 1 policy.</div>
+</div>
+</section>
+<section class="block" id="s8" style="margin-bottom:0;">
+<div class="bhead"><span class="ix">08</span><div><h2>Notes</h2></div></div>
+<div class="panel">
+<div class="note" style="margin-top:0;">
+<b>Data sources.</b> GOAL inbound call report and call-level export, all campaigns, campaign launch through September 25, 2026. The first recorded call is June 8, 2026 and the most recent is September 25, 2026.<br><br>
+<b>Call totals.</b> Inbound calls are answered plus missed calls from the call report (46 + 83 = 129). The call-level export lists 139 records; 10 have a recorded duration of 0:00 and are not counted as calls.<br><br>
+<b>Answered and missed.</b> Splits classify each call in the call-level export as answered when it lasted 1 minute 30 seconds or longer. This reproduces the call report totals exactly: 129 calls, 46 answered, 30 quotes and 9 policies.<br><br>
+<b>Scenarios.</b> Section 03 applies the current answered-call rates (65.2% quoted, 19.6% bound) to 129 calls at 60% and 90% answered. Section 02 applies the same rates to the 83 missed calls.<br><br>
+<b>Talk time.</b> Sum of recorded durations on answered calls (16.3 hours).
+</div>
+</div>
+</section>
+</main>
+</div>
+<script>
+window.addEventListener('load',function(){
+requestAnimationFrame(function(){
+document.querySelectorAll('.fbar i,.hrow .htrack i,.sm .tk i').forEach(function(el){
+var w=el.style.getPropertyValue('--pw'); if(w) el.style.width=w;
+});
+});
+});
+</script>
+</body>
+</html>

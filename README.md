@@ -14,9 +14,10 @@ landing page.
 .
 ├── index.html                                          # Landing page (the reports list)
 ├── reports/
-│   ├── 2026-06-18-auto-performance-review.html         # A self-contained report
-│   ├── 2026-06-18-home-performance-review.html         # A self-contained report
-│   └── 2026-06-01-geographic-targeting-footprint.html  # A self-contained report
+│   ├── 2026-10-01-geographic-streamline.html        # A self-contained report
+│   ├── 2026-10-01-traffic-source-performance.html   # A self-contained report
+│   ├── 2026-10-01-configuration-overview.html       # A self-contained report
+│   └── 2026-10-01-inbound-call-time-of-day.html     # A self-contained report
 ├── assets/
 │   └── goal-logo-white.png                             # GOAL logo (used on the landing page)
 ├── report-templates/                                   # Starting templates for new reports

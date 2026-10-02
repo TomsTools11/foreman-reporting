@@ -93,6 +93,41 @@
       "generatedBy": "cowork-session",
       "builtAt": "2026-09-10T23:15:00.000Z",
       "replaces": "2026-07-20-inbound-calls-by-time-of-day.html"
+    },
+    "2026-10-01-geographic-streamline.html": {
+      "title": "Foreman Agency — Geographic Streamline · October 2, 2026",
+      "date": "2026-10-02",
+      "type": "Geography",
+      "style": "dashboard",
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-10-02T00:00:00.000Z",
+      "replaces": "2026-09-25-alltime-blended-performance.html"
+    },
+    "2026-10-01-traffic-source-performance.html": {
+      "title": "Foreman Agency — Traffic Source Performance · October 2, 2026",
+      "date": "2026-10-02",
+      "type": "Performance",
+      "style": "dashboard",
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-10-02T00:00:00.000Z",
+      "replaces": "2026-09-25-home-campaign-performance.html"
+    },
+    "2026-10-01-configuration-overview.html": {
+      "title": "Foreman Agency — Campaign Configuration · October 2, 2026",
+      "date": "2026-10-02",
+      "type": "Configuration",
+      "style": "dashboard",
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-10-02T00:00:00.000Z"
+    },
+    "2026-10-01-inbound-call-time-of-day.html": {
+      "title": "Foreman Agency — Inbound Call Time of Day · October 2, 2026",
+      "date": "2026-10-02",
+      "type": "Operations",
+      "style": "dashboard",
+      "generatedBy": "cowork-session",
+      "builtAt": "2026-10-02T00:00:00.000Z",
+      "replaces": "2026-09-25-inbound-call-performance.html"
     }
   }
 }
